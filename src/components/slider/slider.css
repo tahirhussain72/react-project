@@ -1,0 +1,19 @@
+.slider-card {
+    width: 18rem;
+    margin: 0 10px;
+  }
+  
+  .slider-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .slider-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .slider-card .card-text {
+    margin-bottom: 0;
+  }
+  

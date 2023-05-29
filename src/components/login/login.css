@@ -1,0 +1,108 @@
+.login{
+    margin-top: 100px;
+}
+.login-heading{
+    color: #061757;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+    transition: all .25s ease-out;
+}
+.login-para{
+    color: #505050;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.login-info input{
+    color: var(--e-global-color-171a363);
+    height: 60px;
+    border-radius: 10px;
+    padding: 21px 27px 22px;
+    margin: 0 0 20px;
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-width: 0;
+}
+input{
+    border: none;
+    background-color: #F1F1F1;
+    box-shadow: 0px 10px 12px 0px rgba(4.000000000000004,47.00000000000015,122,.14901960784313725);
+    font-size: 15px;
+    font-weight: 500;
+    color: #505050;
+    width: 312px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 17px 20px 15px;
+    transition: all ease-out .3s;
+    margin: 10px 0;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+   
+}
+textarea{
+    border: none;
+    background-color: #F1F1F1;
+    box-shadow: 0px 10px 12px 0px rgba(4.000000000000004,47.00000000000015,122,.14901960784313725);
+    font-size: 15px;
+    font-weight: 500;
+    color: #505050;
+    width: 312px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 17px 20px 15px;
+    transition: all ease-out .3s;
+    margin: 10px 0;
+    width: 100%;
+}
+textarea:focus{
+    outline: none;
+}
+.send-now{
+    
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    float: right;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -.48px;
+    width: 148px;
+    border-radius: 10px;
+    padding: 16px 25px 15px;
+    background-color: #061757;
+    box-shadow: 0px 10px 12px 0px rgba(0,0,0,.2);
+    transition: all ease-out .3s;
+}
+.send-now:hover{
+    background-color: #e52c48;
+}
+
+.login-icon{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    background-color: #e52c48;
+    border-radius: 10px;
+}
+.login-icon div{
+    padding: 30px 0px;
+}
+.login-icon span{
+    /* padding: 0px 20px; */
+    font-size: 22px;
+    margin: 0 25px;
+    width:80px !important;
+    height:80px !important;
+    
+    border-radius: 50% !important; 
+    background-color: #FFFFFF1A;
+    text-align: center;
+}

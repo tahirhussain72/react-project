@@ -1,0 +1,33 @@
+.contact{
+    width: 100%;
+    margin-top: 50px;
+}
+.contact-us{
+    background: #061757;
+    width: 95%;
+    height: 170px;
+}
+
+.contact-heading{
+    color: #fff;
+    padding: 40px 100px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn{
+    padding: 70px 50px;
+}
+.button{
+    padding: 18px 30px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: #E52C48;
+}
+.button:hover{
+    background-color: #fff;
+    color: #E52C48;
+}

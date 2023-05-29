@@ -1,0 +1,65 @@
+.choose{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.why-heading{
+    color: #061757;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.why-para{
+    padding-top: 30px;
+    font-size: 15px;
+    color: #505050;
+}
+.setting-icon{
+    font-size: 22px;
+    color: #fff;
+    fill-rule: evenodd;
+    width: 28.428;
+    height: 28.428;
+    width: 61px;
+    height: 51px;
+    background-color: #e52c48;
+    box-shadow: 0px 7px 25px #E52C4859;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
+}
+.setting-heading{
+    font-size: 23px !important;
+    padding-top: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #141414 !important;
+  
+}
+.setting-para{
+    color: #505050;
+    font-size: 15px;
+    font-weight: 400;
+}
+.why-img{
+    position: relative;
+}
+.doted{
+    position: absolute;
+}
+.rectangle{
+   position: absolute;
+   bottom: 0%;
+   right: 0;
+   left: 0;
+   top: 89%; 
+}
+.half-circle{
+position: absolute;
+right: 0;
+top: 60%;
+}

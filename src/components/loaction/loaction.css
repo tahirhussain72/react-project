@@ -1,0 +1,44 @@
+.loaction{
+    width: 100%;
+    /* background-color: ; */
+}
+.google{
+    width: 100%;
+}
+.google-loaction{
+    width: 98%;
+    background-color: #061757;
+    border-radius: 15px;
+}
+.form-heading{
+    color: #fff;
+    padding: 25px 20px;
+}
+.input-flied input{
+    background-color: #0a347e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 10px 12px 0px rgba(4.000000000000004,47.00000000000015,122,.15);
+    border-style: solid;
+    border-width: 0;
+    padding: 15px 20px;
+    color: #FFF;
+    margin: 25px;
+}
+.form-btn{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .48px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 16px 31px 15px;
+    margin: 0;
+    margin: 25px;
+    color: #fff;
+    background-color: #e52c48;
+    border: none;
+}
+.form-btn:hover{
+    color: #e52c48;
+    background-color: #fff;
+}

@@ -1,0 +1,116 @@
+.services{
+    width: 100%;
+    margin-top: 120px;
+}
+
+.services-heading{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+}
+.main-hd{
+    font-weight: 500;
+    font-size: 78px;
+    color: #061757;
+}
+.our{
+    padding-right: 60px;
+}
+h2{
+    color:  #E52C48; 
+    padding-left: 4%;
+    display: inline;
+    position: relative;
+  }
+  h2:after{
+      content: "";
+      /* display: block; */
+      width: 60px;
+      height: 4px;
+      background:  #E52C48;
+      position: absolute;
+      left: 90%;
+      top: 45%;
+     
+  }
+  .main-card{
+    padding-top: 120px;
+    border-radius: 30px;
+  }
+  .card{
+     box-shadow: 0px 10px 12px 0px rgba(4.000000000000004,47.00000000000015,122,.14901960784313725);
+  }
+  .svg{
+    background-color: #E52C48;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 7px 40px #E52C484D;
+   
+    border-radius: 20px;
+    color: #fff;
+  }
+  .card-title{
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #061757;
+    text-transform: capitalize;
+    line-height: 1.2em;
+  }
+  .card-text{
+  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center !important;
+    
+    line-height: 1.5;
+  }
+  .rightarrow{
+    width:30px;
+    height:30px;
+    margin-left: 150px !important;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #061757;
+    color: #fff;
+    border-radius: 5px;
+    text-shadow: 3px 2px 6px #292929;
+   
+  }
+  .card{
+    transition: all .3s ease;
+    border:  none;
+  }
+.card:hover{
+    background-color: #061757;
+    color: #fff;
+
+}
+.card:hover h4{
+    color: #fff;
+
+}
+.card:hover  .rightarrow{
+    background-color: #E52C48;
+}

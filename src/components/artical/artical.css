@@ -1,0 +1,87 @@
+.artiacal{
+    width: 100%;
+    margin-top: 80px;
+}
+.blog-heading{
+    color: #061757;
+    font-size: 60px;
+    font-weight: 400;
+    /* background-color: red; */
+}
+.blog-para{
+    color: #505050;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.blog-btn{
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e52c48;
+    padding: 12px 23px;
+}
+.blog-btn:hover{
+    color: #FFF;
+    background: #e52c48;
+    cursor: pointer;
+}
+.hero{
+    position: relative;
+ 
+}
+.hero::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(1deg, #061757 0%,#06175700 100%);
+    box-shadow: 0px 12px 50px #00000014;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .25s ease-in;
+}
+
+.hero:hover::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(1deg,#e52c48 0%,#73162400 100%);
+    box-shadow: 0px 12px 50px #00000014;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: all .25s ease-in;
+    cursor: pointer;
+}
+.hero .artical-overlay a {
+    color: #FFF !important;
+    font-size: 1.375em;
+   max-width: 68%;
+   display: block;
+}
+.hero .artical-overlay span {
+    color: #ddd;
+    padding: 10px 0px;
+}
+.hero .artical-overlay{
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    line-height: 50px;
+
+}
+.hero img{
+    width:400px;
+    height:400px ;
+    object-fit: cover;
+    border-radius: 15px;
+}

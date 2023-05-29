@@ -1,0 +1,40 @@
+.ourBlog{
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #061757;
+    background-color: #F1F1F1;
+    padding: 120px;
+    border-radius: 15px;
+}
+
+.blog-Btn{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-button {
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: #061757;
+    color: #E52C48;
+    box-shadow: 0px 10px 12px 0px rgba(4.000000000000004,47.00000000000015,122,.14901960784313725);
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.7s linear;
+  }
+  .circle-button:hover{
+background-color: #E52C48;
+color: #fff;
+
+  }

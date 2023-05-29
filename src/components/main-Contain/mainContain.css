@@ -1,0 +1,82 @@
+.mainContain{
+    width: 100%;
+    padding-top: 40px;
+     background-color: #F3F3F3;
+
+}
+
+.mainContainer{
+   width: 100%;
+   margin: 0 auto;
+   display: grid;
+   padding-left: 3%;
+   grid-template-columns: repeat(2,1fr);
+}
+.mainHeading h1{
+    color: #061757;
+    font-size: 78px;
+    font-weight: 600;
+    line-height: 78px;
+    padding: 10px 0;
+   
+}
+
+.mainHeading .para{
+    /* margin-top: 40px; */
+    font-size: 17px;
+    padding: 10px 0;
+    max-width: 80%;
+}
+.mainHeading .btn{
+    color:  #E52C48; 
+    box-shadow: 0px 8px 50px 0px rgba(0,0,0,.12156862745098039);
+    border-radius: 15px;
+    font-size: 17px;
+    border: 1px;
+    padding: 20px 35px;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    transition: all .3s ease;
+}
+.mainHeading .btn:hover{
+    background-color: #E52C48;
+    color: #fff;
+}
+/* .mainHeading{
+    display: flex;
+ 
+} */
+/* .para{
+    display: flex;
+    flex-direction: column;
+} */
+.mainContainImg{
+    width: 100%;
+    position: relative;
+}
+.mainContainImg img{
+    width: 100%;
+}
+.bgimg{
+    position: absolute;
+    width: 84%;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.mainContainImg .circal-img{
+    position: relative;
+    z-index: 2;
+}
+.bg-uppar-bottom{
+    position: absolute;
+    left: -10%;
+    top: 20%;
+
+}
+.bottom-img{
+    position: absolute;
+    left: -10%;
+    bottom: 0%;
+}
